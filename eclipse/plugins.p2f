@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='11'>
+  <ius size='14'>
     <iu id='net.mihai-nita.ansicon.feature.group' name='Ansi Console' version='1.3.1.201508091828'>
       <repositories size='2'>
         <repository location='http://p2.pdt-extensions.org/'/>
@@ -11,6 +11,18 @@
     <iu id='com.dubture.composer.feature.feature.group' name='Composer' version='1.0.3.201606221533'>
       <repositories size='1'>
         <repository location='http://p2.pdt-extensions.org/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.datatools.enablement.sdk.feature.feature.group' name='Data Tools Platform Enablement Extender SDK' version='1.11.2.v201309171554-7I9v7XFE9JgQP0oJDSE2RI-mNjpc'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/mars'/>
+        <repository location='http://download.eclipse.org/datatools/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.eclipse.datatools.sdk.feature.feature.group' name='Data Tools Platform Extender SDK' version='1.11.2.v201309171554-7PAi7gFEpPZGKz-8iIz--X8NuUhz'>
+      <repositories size='2'>
+        <repository location='http://download.eclipse.org/releases/mars'/>
+        <repository location='http://download.eclipse.org/datatools/updates/'/>
       </repositories>
     </iu>
     <iu id='epp.package.php' name='Eclipse IDE for PHP Developers' version='4.5.2.20160218-0600'>
@@ -54,6 +66,11 @@
     <iu id='de.bastiankrol.startexplorer.feature.feature.group' name='StartExplorer  Feature' version='1.7.0'>
       <repositories size='1'>
         <repository location='http://www.nodeclipse.org/updates/'/>
+      </repositories>
+    </iu>
+    <iu id='org.obeonetwork.dsl.uml2.runtime.sdk.feature.feature.group' name='UML Designer SDK' version='6.0.0.201510191019'>
+      <repositories size='1'>
+        <repository location='http://releases.obeonetwork.com/sirius_3_0/'/>
       </repositories>
     </iu>
     <iu id='org.dadacoalition.yedit.feature.feature.group' name='YEdit Feature' version='1.0.20.201509041456-RELEASE'>
